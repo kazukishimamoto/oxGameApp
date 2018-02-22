@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController, UIGestureRecognizerDelegate {
 
     var scene: GameScene!
     
@@ -30,5 +30,7 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func didTap(_ sender: UITapGestureRecognizer) {
+        let location = sender.location(in: view)
+        print("tapped at \(location.x), \(location.y) \n")
     }
 }

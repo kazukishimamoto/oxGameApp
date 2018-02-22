@@ -29,6 +29,7 @@
                 <tapGestureRecognizer id="Bse-QO-5Yh">
                     <connections>
                         <action selector="didTap:" destination="BV1-FR-VrT" id="ydR-tt-vhn"/>
+                        <outlet property="delegate" destination="BV1-FR-VrT" id="J11-1e-Xm8"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
