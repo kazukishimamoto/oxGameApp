@@ -43,4 +43,14 @@ class GameScene: SKScene {
             return -80
         }
     }
+    
+    func mark(location: CGPoint){
+        let imageName = turn_o ? "o" : "x"
+        let sign = SKSpriteNode(imageNamed: imageName)
+        sign.position = CGPoint(x: tranceform(w: location.x), y: 160 - tranceform(w: location.y - 320))
+        sign.anchorPoint = CGPoint(x: 0, y: 0)
+        addChild(sign)
+        
+        turn_o = !turn_o
+    }
 }
