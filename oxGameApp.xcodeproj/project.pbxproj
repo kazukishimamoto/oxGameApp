@@ -16,6 +16,7 @@
 		D40655C6203EE16B00BAF23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40655C4203EE16B00BAF23E /* LaunchScreen.storyboard */; };
 		D40655D1203EE16C00BAF23E /* oxGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40655D0203EE16C00BAF23E /* oxGameAppTests.swift */; };
 		D40655DC203EE16C00BAF23E /* oxGameAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40655DB203EE16C00BAF23E /* oxGameAppUITests.swift */; };
+		D40655EA203EEA7300BAF23E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D40655E9203EEA7300BAF23E /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D40655D7203EE16C00BAF23E /* oxGameAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oxGameAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40655DB203EE16C00BAF23E /* oxGameAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oxGameAppUITests.swift; sourceTree = "<group>"; };
 		D40655DD203EE16C00BAF23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40655E9203EEA7300BAF23E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D40655B4203EE16B00BAF23E /* oxGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				D40655E9203EEA7300BAF23E /* bg.png */,
 				D40655B5203EE16B00BAF23E /* AppDelegate.swift */,
 				D40655B9203EE16B00BAF23E /* Actions.sks */,
 				D40655BB203EE16B00BAF23E /* GameScene.swift */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40655EA203EEA7300BAF23E /* bg.png in Resources */,
 				D40655C1203EE16B00BAF23E /* Main.storyboard in Resources */,
 				D40655C3203EE16B00BAF23E /* Assets.xcassets in Resources */,
 				D40655C6203EE16B00BAF23E /* LaunchScreen.storyboard in Resources */,
