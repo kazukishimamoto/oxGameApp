@@ -28,4 +28,7 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
+    }
 }
