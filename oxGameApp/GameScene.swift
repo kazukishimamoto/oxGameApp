@@ -10,9 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene {
     
-    override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
-    }
+    var turn_o = true
     
     required init(coder aDecoder: NSCoder){
         fatalError("NSCoder not supported")
@@ -28,4 +26,10 @@ class GameScene: SKScene {
         background.anchorPoint = CGPoint(x: 0, y: 0)
         addChild(background)
     }
+    
+    override func update(_ currentTime: TimeInterval) {
+        // Called before each frame is rendered
+    }
+    
+    
 }
